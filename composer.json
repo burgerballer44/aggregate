@@ -1,0 +1,17 @@
+{
+    "name": "burger/aggregate",
+    "description": "build aggregates that produce domain events",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darnell Collins",
+            "email": "collinsdarnell44@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Burger\\Aggregate\\": "src/"
+        }
+    }
+}
