@@ -4,11 +4,10 @@ namespace Burger\Aggregate;
 
 use ArrayAccess;
 use Countable;
-use Iterator;
 use SplFixedArray;
 
 // ensures an array only contains items that you specify when constructed
-abstract class ImmutableArray extends SplFixedArray implements Countable, Iterator, ArrayAccess
+abstract class ImmutableArray extends SplFixedArray implements Countable, ArrayAccess
 {
     public function __construct(array $items)
     {
